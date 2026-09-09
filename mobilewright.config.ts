@@ -11,11 +11,27 @@ export default defineConfig({
   }),
   projects: [
     {
-      name: 'android',
+      name: 'pixel-9-android-17',
       use: {
         platform: 'android',
-        deviceName: /Google Pixel/,
+        deviceName: /Google Pixel 9\b/,
+        osVersion: '>=17',
+      },
+    },
+    {
+      name: 'samsung-s23-android-13',
+      use: {
+        platform: 'android',
+        deviceName: /Samsung Galaxy S23\b/,
         osVersion: '>=13',
+      },
+    },
+    {
+      name: 'samsung-s24-android-14',
+      use: {
+        platform: 'android',
+        deviceName: /Samsung Galaxy S24\b/,
+        osVersion: '>=14',
       },
     },
   ],
