@@ -6,7 +6,7 @@ export default defineConfig({
   bundleId: 'com.bstack.demo',
   timeout: 60_000,
   workers: 3,
-  fullyParallel: true,
+  fullyParallel: false,
   driver: browserStackDriver({
     app: 'bs://3e6fa090f64631b0277501baf5108585ee9780b1',
     project: 'MobileWright - BStackDemo',
