@@ -1,0 +1,20 @@
+{
+  "name": "mobilewright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mobilewright test",
+    "test:bs": "BROWSERSTACK_USERNAME=manojvbhandare_APrlwx BROWSERSTACK_ACCESS_KEY=xzr1F7yKi8dkr3qTGm65 npx mobilewright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@browserstack/mobilewright": "^0.1.1",
+    "@mobilewright/test": "^0.0.55",
+    "mobilewright": "^0.0.55",
+    "typescript": "^7.0.2"
+  }
+}
