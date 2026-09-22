@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx mobilewright test",
-    "test:bs": "BROWSERSTACK_USERNAME=manojvbhandare_APrlwx BROWSERSTACK_ACCESS_KEY=xzr1F7yKi8dkr3qTGm65 npx mobilewright test"
+    "test:bs": "npx mobilewright test"
   },
   "keywords": [],
   "author": "",
